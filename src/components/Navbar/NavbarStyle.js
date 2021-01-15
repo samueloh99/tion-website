@@ -2,9 +2,10 @@ import styled from 'styled-components';
 import { Container } from '../../styles/GlobalStyles';
 import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import * as colors from '../../styles/FontsColors';
 
 export const Nav = styled.div`
-  background: white;
+  background: ${colors.white};
   height: 80px;
   display: flex;
   justify-content: center;
@@ -23,7 +24,7 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
-  color: black;
+  color: ${colors.black};
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
@@ -83,7 +84,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(Link)`
-  color: #4f25e8;
+  color: ${colors.standardColor};
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -91,7 +92,7 @@ export const NavLinks = styled(Link)`
   height: 100%;
 
   &:hover {
-    color: #36ddd4;
+    color: ${colors.lightBlue};
     transition: all 0.3s ease;
   }
   @media screen and (max-width: 960px) {
@@ -99,10 +100,10 @@ export const NavLinks = styled(Link)`
     padding: 2rem;
     width: 100%;
     display: table;
-    color: white;
+    color: ${colors.white};
 
     &:hover {
-      color: #4f25e8;
+      color: ${colors.standardColor};
       transition: all 0.3s ease;
     }
   }
@@ -131,7 +132,7 @@ export const NavBtnLink = styled(Link)`
 export const ButtonTransparent = styled.button`
   border-radius: 50px;
   border: 2px solid #4f25e8;
-  color: #4f25e8;
+  color: ${colors.standardColor};
   font-weight: bold;
   background: white;
   padding: 3px;
@@ -144,7 +145,7 @@ export const ButtonTransparent = styled.button`
     transition: all 0.3s ease-out;
     background: #36ddd4;
     border: 2px solid #36ddd4;
-    color: white;
+    color: ${colors.white};
   }
 
   @media screen and (max-width: 960px) {
@@ -156,7 +157,7 @@ export const ButtonTransparent = styled.button`
 export const ButtonHighlight = styled.button`
   border-radius: 50px;
   border: 2px solid #4f25e8;
-  color: white;
+  color: ${colors.white};
   font-weight: bold;
   background: #4f25e8;
   padding: 3px;
@@ -167,7 +168,7 @@ export const ButtonHighlight = styled.button`
   &:hover {
     transition: all 0.3s ease-out;
     background: #36ddd4;
-    color: white;
+    color: ${colors.white};
     border: 2px solid #36ddd4;
   }
 

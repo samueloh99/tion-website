@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import * as colors from '../../styles/FontsColors';
 
 export const InfoSec = styled.div`
-  color: #fff;
+  color: ${colors.white};
   padding: 160px 0;
   background: white;
 `;
@@ -29,6 +30,7 @@ export const InfoColumn = styled.div`
     justify-content: center;
   }
 `;
+
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
@@ -58,7 +60,7 @@ export const Heading = styled.h1`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;
-  color: #4f25e8;
+  color: ${colors.standardColor};
 `;
 
 export const Subtitle = styled.p`
@@ -67,5 +69,5 @@ export const Subtitle = styled.p`
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
-  color: #292e2e;
+  color: ${colors.black};
 `;
