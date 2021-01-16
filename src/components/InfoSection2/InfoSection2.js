@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { Container, ButtonColorful } from '../../styles/GlobalStyles';
+import { GiRock } from 'react-icons/gi';
 // import svg1 from '../../images/svg-1.svg';
+
 import {
   InfoSec,
   InfoSecWrapper,
@@ -12,10 +11,9 @@ import {
   InfoSecInfo,
   InfoSecIcon,
   InfoSecDesc,
-  InfoSecDescBold,
 } from './InfoSection2Style';
 
-function InfoSection2({ headline, description, buttonLabel, imgStart, start }) {
+function InfoSection2() {
   return (
     <>
       <InfoSec>
