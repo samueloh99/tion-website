@@ -33,7 +33,7 @@ export const InfoColumn = styled.div`
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
-  display: flex;
+  display: ${({ appear }) => (appear ? 'flex' : 'none')};
   justify-content: flex-start;
 `;
 
@@ -70,4 +70,13 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   color: ${colors.black};
+`;
+
+export const ImgFull = styled.img`
+  margin: 70px 0px 70px 0px;
+  width: 100%;
+
+  @media screen and (max-widht: 760px) {
+    width: 70%;
+  }
 `;

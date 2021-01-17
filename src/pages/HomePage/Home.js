@@ -7,7 +7,9 @@ const Home = () => {
     <>
       <InfoSection {...homeObjOne} />
       <InfoSection2 />
-      <Questions {...homeObjTwo} />
+      <InfoSection imgOnly={true} />
+      <Questions />
+      <InfoSection {...homeObjTwo} />
     </>
   );
 };

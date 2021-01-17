@@ -1,10 +1,8 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 import * as colors from '../../styles/FontsColors';
 
 export const QuestionsDiv = styled.div`
   display: flex;
-  margin-bottom: 300px;
 `;
 
 export const QuestionsContainer = styled.div`
