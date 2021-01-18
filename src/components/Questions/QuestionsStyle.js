@@ -21,7 +21,7 @@ export const QuestionsContainer = styled.div`
 
 export const QuestionsHeading = styled.h1`
   color: ${colors.standardColor};
-  font-size: 48px;
+  font-size: ${colors.h1};
   margin-bottom: 100px;
 `;
 

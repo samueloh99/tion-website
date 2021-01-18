@@ -25,7 +25,7 @@ export const InfoSecWrapper = styled.div`
 
 export const InfoSecHeading = styled.h1`
   color: ${colors.standardColor};
-  font-size: 48px;
+  font-size: ${colors.h1};
   margin-bottom: 24px;
   text-align: center;
 `;
@@ -73,9 +73,4 @@ export const InfoSecDesc = styled.h3`
   font-size: 15px;
   text-align: center;
   font-weight: 400;
-`;
-
-export const InfoSecDescBold = styled.h3`
-  font-size: 15px;
-  font-weight: bold;
 `;

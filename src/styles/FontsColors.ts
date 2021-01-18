@@ -3,3 +3,8 @@ export const lightBlue = '#36ddd4';
 export const black = '#3B3B3B';
 export const white = '#ffff';
 export const grey = '#A8A8A8';
+
+export const h1 = '48px';
+export const h2 = '20px';
+
+export const buttonFont = '15px';

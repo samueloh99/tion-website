@@ -58,7 +58,7 @@ export const TextWrapper = styled.div`
 
 export const Heading = styled.h1`
   margin-bottom: 24px;
-  font-size: 48px;
+  font-size: ${colors.h1};
   line-height: 1.1;
   color: ${colors.standardColor};
 `;
@@ -67,7 +67,7 @@ export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: ${colors.h2};
   line-height: 24px;
   color: ${colors.black};
 `;
