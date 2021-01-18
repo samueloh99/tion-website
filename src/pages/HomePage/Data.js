@@ -17,3 +17,36 @@ export const homeObjTwo = {
   btnAppear: false,
   imgOnly: false,
 };
+
+// export const ecosystemInfo = {
+//   titles: [
+//     'CO-CRIADORES',
+//     'MEMBROS',
+//     'TIONDAO ORGANIZERS',
+//     'PROFESSORES WIZARDS',
+//     'PARCEIROS TION MARKET',
+//   ],
+// };
+
+export const EcosystemInfoData = [
+  {
+    title: 'CO-CRIADORES',
+    items: ['EVANS', 'CHRIS', 'PARK'],
+  },
+  {
+    title: 'MEMBROS',
+    items: ['EVANS', 'CHRIS', 'PARK'],
+  },
+  {
+    title: 'TIONDAO ORGANIZERS',
+    items: ['EVANS', 'CHRIS', 'PARK'],
+  },
+  {
+    title: 'PROFESSORES WIZARDS',
+    items: ['EVANS', 'CHRIS', 'PARK'],
+  },
+  {
+    title: 'PARCEIROS TION MARKET',
+    items: ['EVANS', 'CHRIS', 'PARK'],
+  },
+];

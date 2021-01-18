@@ -1,6 +1,11 @@
 import React from 'react';
-import { homeObjOne, homeObjTwo } from './Data';
-import { InfoSection, InfoSection2, Questions } from '../../components';
+import { homeObjOne, homeObjTwo, ecosystemInfo } from './Data';
+import {
+  InfoSection,
+  InfoSection2,
+  Questions,
+  EcosystemInfo,
+} from '../../components';
 
 const Home = () => {
   return (
@@ -10,6 +15,7 @@ const Home = () => {
       <InfoSection imgOnly={true} />
       <Questions />
       <InfoSection {...homeObjTwo} />
+      <EcosystemInfo />
     </>
   );
 };
