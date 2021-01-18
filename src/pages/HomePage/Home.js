@@ -1,10 +1,11 @@
 import React from 'react';
-import { homeObjOne, homeObjTwo, ecosystemInfo } from './Data';
+import { homeObjOne, homeObjTwo } from './Data';
 import {
   InfoSection,
   InfoSection2,
   Questions,
   EcosystemInfo,
+  Partners,
 } from '../../components';
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Questions />
       <InfoSection {...homeObjTwo} />
       <EcosystemInfo />
+      <Partners />
     </>
   );
 };
