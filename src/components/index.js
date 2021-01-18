@@ -3,3 +3,4 @@ export { default as InfoSection2 } from './InfoSection2/InfoSection2';
 export { default as Navbar } from './Navbar/Navbar';
 export { default as Questions } from './Questions/Questions';
 export { default as EcosystemInfo } from './EcosystemInfo/EcosystemInfo';
+export { default as Footer } from './Footer/Footer';
