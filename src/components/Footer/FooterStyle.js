@@ -4,10 +4,10 @@ import * as colors from '../../styles/FontsColors';
 
 const h1 = '20px';
 const h2 = '15px';
-const logoTitle = '24px';
+const logoTitle = '40px';
 
 export const FooterContainer = styled.div`
-  background-color: ${colors.grey};
+  background-color: ${colors.greyLighter};
   display: flex;
   flex-direction: row;
   padding: 70px;
@@ -24,6 +24,7 @@ export const FooterIcon = styled.div`
   width: 50%;
   justify-content: flex-start;
   align-items: flex-start;
+  color: ${colors.standardColor};
 
   @media screen and (max-width: 760px) {
     flex-direction: column;
@@ -37,6 +38,8 @@ export const FooterIcon = styled.div`
 export const FooterLogo = styled.div`
   display: flex;
   font-size: ${logoTitle};
+  justify-items: center;
+  align-items: center;
 `;
 
 export const FooterLinks = styled.div`
@@ -78,6 +81,7 @@ export const FooterLinksSubtitles = styled.p`
 export const FooterRights = styled.div`
   display: flex;
   padding: 40px;
+  background: ${colors.grey};
 `;
 
 export const FooterRightsDescription = styled.p`
