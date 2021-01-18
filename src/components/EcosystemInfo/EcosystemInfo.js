@@ -58,17 +58,11 @@ function EcosystemInfo() {
                     </DropdownIcon>
                   </DropdownWrapper>
                   <ThinLine />
-                  {open === index ? (
-                    <DropdownInfoOpen>
-                      {info.items.map((item) => (
-                        <DropdownInfoOpenHeading>
-                          {item}
-                        </DropdownInfoOpenHeading>
-                      ))}
-                    </DropdownInfoOpen>
-                  ) : (
-                    <></>
-                  )}
+                  <DropdownInfoOpen openInfo={open === index ? true : false}>
+                    {info.items.map((item) => (
+                      <DropdownInfoOpenHeading>{item}</DropdownInfoOpenHeading>
+                    ))}
+                  </DropdownInfoOpen>
                 </DropdownInfo>
               ))}
             </EcosystemColumn>

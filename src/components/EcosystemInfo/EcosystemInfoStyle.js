@@ -97,14 +97,22 @@ export const DropdownWrapper = styled.div`
   display: flex;
   width: 65%;
   color: black;
+  align-items: center;
 `;
 
 export const DropdownHeading = styled.div`
   color: black;
 `;
 export const DropdownIcon = styled.div`
+  display: flex;
   color: black;
   margin-left: auto;
+  border-radius: 100%;
+  box-shadow: 0px 0px 7px 0px #ccc;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const ThinLine = styled.div`
@@ -116,10 +124,11 @@ export const ThinLine = styled.div`
 
 export const DropdownInfoOpen = styled.div`
   width: 65%;
+  display: ${({ openInfo }) => (openInfo ? 'flex' : 'none')};
+  flex-direction: column;
 `;
 
 export const DropdownInfoOpenHeading = styled.div`
   color: ${colors.standardColor};
   padding: 15px;
-  border-bottom: 1px solid black;
 `;
