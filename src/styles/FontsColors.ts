@@ -4,6 +4,7 @@ export const black = '#3B3B3B';
 export const white = '#ffff';
 export const grey = '#DFE1EB';
 export const greyLighter = '#EBECF2';
+export const greyLight = '#EBEBEB';
 
 export const h1 = '48px';
 export const h2 = '20px';

@@ -49,7 +49,7 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to="/">Parceiros</NavLinks>
+                <NavLinks to="/partners">Parceiros</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (

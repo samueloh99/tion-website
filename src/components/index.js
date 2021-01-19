@@ -5,3 +5,4 @@ export { default as Questions } from './Questions/Questions';
 export { default as EcosystemInfo } from './EcosystemInfo/EcosystemInfo';
 export { default as Footer } from './Footer/Footer';
 export { default as Partners } from './Partners/Partners';
+export { default as InfoSectionPartnersPage } from './InfoSectionPartnersPage/InfoSectionPartnersPage';
