@@ -1,10 +1,12 @@
 import React from 'react';
-import { InfoSectionPartnersPage } from '../../components';
+import { InfoSectionPartnersPage, BePartner } from '../../components';
+import { dataOne, dataTwo } from './Data';
 
 const PartnersPage = () => {
   return (
     <>
       <InfoSectionPartnersPage />
+      <BePartner {...dataOne} />
     </>
   );
 };

@@ -8,6 +8,8 @@ export const greyLight = '#EBEBEB';
 
 export const h1 = '48px';
 export const h2 = '20px';
+export const subTitlesPartnerPage = '18px';
+export const subTitlesPartnerPageMobile = '14px';
 
 export const h1Mobile = '42px';
 export const h2Mobile = '17px';

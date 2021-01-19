@@ -15,7 +15,7 @@ export const InfoSec = styled.div`
 export const InfoSecContainer = styled.div`
   display: flex;
   width: 100%;
-  max-width: 400px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
