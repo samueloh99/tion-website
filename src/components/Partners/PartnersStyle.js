@@ -24,6 +24,10 @@ export const PartnersHeading = styled.h1`
   color: ${colors.standardColor};
   font-size: ${colors.h1};
   margin-bottom: 50px;
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h1Mobile};
+  }
 `;
 
 export const PartnersIconsContainer = styled.div`

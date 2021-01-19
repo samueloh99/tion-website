@@ -68,6 +68,10 @@ export const Heading = styled.h1`
   font-size: ${colors.h1};
   line-height: 1.1;
   color: ${colors.standardColor};
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h1Mobile};
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -77,6 +81,10 @@ export const Subtitle = styled.p`
   font-size: ${colors.h2};
   line-height: 24px;
   color: ${colors.black};
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h2Mobile};
+  }
 `;
 
 export const DropdownInfo = styled.div`
@@ -102,6 +110,10 @@ export const DropdownWrapper = styled.div`
 
 export const DropdownHeading = styled.div`
   color: black;
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h3Mobile};
+  }
 `;
 export const DropdownIcon = styled.div`
   display: flex;
@@ -131,4 +143,8 @@ export const DropdownInfoOpen = styled.div`
 export const DropdownInfoOpenHeading = styled.div`
   color: ${colors.standardColor};
   padding: 15px;
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h3Mobile};
+  }
 `;

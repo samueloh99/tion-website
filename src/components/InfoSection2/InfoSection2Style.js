@@ -28,6 +28,10 @@ export const InfoSecHeading = styled.h1`
   font-size: ${colors.h1};
   margin-bottom: 24px;
   text-align: center;
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h1Mobile};
+  }
 `;
 
 export const InfoSecContainer = styled.div`

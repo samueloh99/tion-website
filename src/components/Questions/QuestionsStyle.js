@@ -52,6 +52,10 @@ export const QuestionsTitle = styled.div`
   color: ${colors.white};
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.miniButtonFont};
+  }
 `;
 
 export const QuestionsIcon = styled.div`

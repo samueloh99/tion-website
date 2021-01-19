@@ -58,6 +58,10 @@ export const Heading = styled.h1`
   font-size: ${colors.h1};
   line-height: 1.1;
   color: ${colors.standardColor};
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h1Mobile};
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -67,4 +71,8 @@ export const Subtitle = styled.p`
   font-size: ${colors.h2};
   line-height: 24px;
   color: ${colors.black};
+
+  @media screen and (max-width: 960px) {
+    font-size: ${colors.h2Mobile};
+  }
 `;

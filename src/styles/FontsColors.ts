@@ -9,4 +9,9 @@ export const greyLight = '#EBEBEB';
 export const h1 = '48px';
 export const h2 = '20px';
 
+export const h1Mobile = '42px';
+export const h2Mobile = '17px';
+export const h3Mobile = '13px';
+
 export const buttonFont = '15px';
+export const miniButtonFont = '13px';
