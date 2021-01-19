@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container } from '../../styles/GlobalStyles';
+// import { Link } from 'react-router-dom';
 import pic2 from '../../images/pic2.jpg';
 
 import {
   InfoSec,
   InfoSecContainer,
-  InfoColumn,
   TextWrapper,
   Heading,
   Subtitle,
