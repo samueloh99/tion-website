@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { AiFillPlusCircle } from 'react-icons/ai';
-import { Container, ButtonColorful } from '../../styles/GlobalStyles';
+// import { Container, ButtonColorful } from '../../styles/GlobalStyles';
 // import svg1 from '../../images/svg-1.svg';
 
 import {

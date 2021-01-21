@@ -7,6 +7,7 @@ const PartnersPage = () => {
     <>
       <InfoSectionPartnersPage />
       <BePartner {...dataOne} />
+      <BePartner {...dataTwo} />
     </>
   );
 };

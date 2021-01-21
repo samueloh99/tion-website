@@ -2,6 +2,7 @@ import React from 'react';
 // import svg1 from '../../images/svg-1.svg';
 import { ButtonColorful } from '../../styles/GlobalStyles';
 import { Link } from 'react-router-dom';
+import * as colors from '../../styles/FontsColors';
 
 import {
   BePartnerContainer,
@@ -27,12 +28,16 @@ function BePartner({
   step1,
   step2,
   step3,
+  step4,
   step1Desc,
   step2Desc,
   step3Desc,
+  step4Desc,
+  backgroundColor,
+  obs,
 }) {
   return (
-    <BePtner>
+    <BePtner backgroundColor={backgroundColor}>
       <BePartnerContainer>
         <BePartnerRow>
           <BePartnerHeading>{headline}</BePartnerHeading>
@@ -73,13 +78,28 @@ function BePartner({
                 </BePartnerWrapHeading>
                 <BePartnerWrapDescription>{step3Desc}</BePartnerWrapDescription>
               </BePartnerWrap>
-              <BePartnerWrap>
-                <BePartnerWrapHeading>
-                  <BePartnerIcon>obs</BePartnerIcon>
-                  <BePartnerTitle>{step1}</BePartnerTitle>
-                </BePartnerWrapHeading>
-                <BePartnerWrapDescription>{step1Desc}</BePartnerWrapDescription>
-              </BePartnerWrap>
+              {obs ? (
+                <BePartnerWrap>
+                  <BePartnerWrapHeading></BePartnerWrapHeading>
+                  <BePartnerWrapDescription
+                    style={{ color: colors.standardColor, fontSize: '14px' }}
+                  >
+                    <strong>Obs.:</strong> Como ainda estamos em fase Beta, as
+                    regras sobre os ganhos em TionTokens são flexíveis e
+                    sujeitas a alteração.
+                  </BePartnerWrapDescription>
+                </BePartnerWrap>
+              ) : (
+                <BePartnerWrap>
+                  <BePartnerWrapHeading>
+                    <BePartnerIcon>4</BePartnerIcon>
+                    <BePartnerTitle>{step4}</BePartnerTitle>
+                  </BePartnerWrapHeading>
+                  <BePartnerWrapDescription>
+                    {step4Desc}
+                  </BePartnerWrapDescription>
+                </BePartnerWrap>
+              )}
             </BePartnerRow>
           </BePartnerWrapper>
         </BePartnerRow>

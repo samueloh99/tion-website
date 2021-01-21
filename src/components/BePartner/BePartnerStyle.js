@@ -1,10 +1,11 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import * as colors from '../../styles/FontsColors';
 
 export const BePtner = styled.div`
   display: flex;
-  background: ${colors.greyLight};
+  background: ${({ backgroundColor }) =>
+    backgroundColor === 'white' ? 'white' : colors.greyLight};
   padding: 100px 0px;
 `;
 
