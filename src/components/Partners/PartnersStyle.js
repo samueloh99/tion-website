@@ -11,7 +11,7 @@ export const PartnersContainer = styled.div`
   padding-right: 20px;
   padding-left: 20px;
   flex-direction: column;
-  height: 900px;
+  height: 500px;
 
   @media screen and (max-width: 991px) {
     padding-right: 30px;

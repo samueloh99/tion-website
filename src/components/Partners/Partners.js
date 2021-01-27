@@ -21,30 +21,6 @@ function Partners() {
         <PartnersIcon>
           <IconImg src={zenLogo} alt="zen" />
         </PartnersIcon>
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>{' '}
-        <PartnersIcon>
-          <IconImg src={zenLogo} alt="zen" />
-        </PartnersIcon>
       </PartnersIconsContainer>
     </PartnersContainer>
   );

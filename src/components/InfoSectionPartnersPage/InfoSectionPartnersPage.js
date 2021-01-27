@@ -8,8 +8,6 @@ import {
   TextWrapper,
   Heading,
   Subtitle,
-  ImgWrapper,
-  Img,
 } from './InfoSectionPartnersPageStyle';
 
 function InfoSection() {
@@ -31,9 +29,7 @@ function InfoSection() {
             </Subtitle>
           </TextWrapper>
         </InfoSecContainer>
-        <ImgWrapper>
-          <Img src={pic2} alt="img" />
-        </ImgWrapper>
+        <img src={pic2} alt="img" />
       </InfoSec>
     </>
   );

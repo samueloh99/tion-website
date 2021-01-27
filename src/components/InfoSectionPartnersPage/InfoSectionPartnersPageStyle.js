@@ -6,44 +6,45 @@ export const InfoSec = styled.div`
   color: ${colors.white};
   padding: 160px 0;
   background: white;
+  position: relative;
+  align-items: center;
 
+  img {
+    padding-right: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    box-shadow: -60px 0px 0px 0px #ebebeb;
+    position: absolute;
+    right: 0;
+    top: 100px;
+
+    @media screen and (max-width: 991px) {
+      position: relative;
+      max-width: 60%;
+    }
+  }
   @media screen and (max-width: 991px) {
     flex-direction: column;
+    position: none;
   } ;
 `;
 
 export const InfoSecContainer = styled.div`
   display: flex;
   width: 100%;
-  max-width: 700px;
+  max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px;
-  position: relative;
 
   @media screen and (max-width: 991px) {
     padding-right: 30px;
     padding-left: 30px;
-  } ;
-`;
-
-export const ImgWrapper = styled.div`
-  margin-left: auto;
-`;
-
-export const Img = styled.img`
-  padding-right: 0;
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
-  max-height: 500px;
-  border-top-left-radius: 100%;
-  border-bottom-left-radius: 100%;
-  box-shadow: -180px 0px 0px 0px #ebebeb;
-
-  @media screen and (max-width: 991px) {
-    max-height: 300px;
   } ;
 `;
 
