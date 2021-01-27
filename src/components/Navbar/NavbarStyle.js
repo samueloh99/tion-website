@@ -67,7 +67,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: grey;
+    background: white;
   }
 `;
 
@@ -164,6 +164,7 @@ export const ButtonHighlight = styled.button`
   width: 140px;
   outline: none;
   white-space: nowrap;
+  cursor: pointer;
 
   &:hover {
     transition: all 0.3s ease-out;

@@ -48,9 +48,19 @@ function Navbar() {
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
-              <NavItem>
-                <NavLinks to="/partners">Parceiros</NavLinks>
-              </NavItem>
+              <NavItemBtn>
+                {button ? (
+                  <NavBtnLink to="/partners">
+                    <ButtonHighlight>Parceiros</ButtonHighlight>
+                  </NavBtnLink>
+                ) : (
+                  <NavBtnLink to="/partners">
+                    <ButtonHighlight onClick={closeMobileMenu}>
+                      Parceiros
+                    </ButtonHighlight>
+                  </NavBtnLink>
+                )}
+              </NavItemBtn>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sign-up">
